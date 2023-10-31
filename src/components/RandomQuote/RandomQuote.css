@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 200px;
+  background: #fff;
+  width: 800px;
+  border-radius: 15px;
+}
+
+.quote {
+  padding: 60px 110px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 32px;
+  text-align: center;
+}
+
+.line {
+  width: 680px;
+  height: 1.5px;
+  background: #333;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 680px;
+  height: 80px;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.icons img {
+  height: 40px;
+  cursor: pointer;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
